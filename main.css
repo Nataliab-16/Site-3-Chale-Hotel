@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    font-size: 16px;
+    background: url(Imagens/bg.png);
+    margin: 15px;
+}
+
+
+#container {
+    margin: 0 auto;
+    max-width: 1220px;
+    min-width: 770px;
+    max-width: 1180px;
+}
+
+/*acaba o básico*/
+
+header {
+    position: relative;
+    z-index: 1;
+    height: 15.4em;
+    min-height: 250px;
+    background: rgb(201, 201, 201) url(Imagens/topo-imagem-principal.png) no-repeat left;
+    
+
+}
+
+#logo {
+    background: url(Imagens/logo.png) no-repeat top left;
+    width: 151px;
+    height: 66px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+
+}
+
+#menu {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    width: 639px;
+    height: 250px;
+    background: url(Imagens/topo-imagem-lateral.png) no-repeat;
+
+}
+
+#depoimento {
+    background: url(Imagens/depoimento.png) no-repeat;
+    width: 226px;
+    height: 164px;
+    position: absolute;
+    right: 80px;
+    top: 70px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#div-topo {
+    margin: 15px;
+    width: 7em;
+    position: absolute;
+    top: 60px;
+    left: 90px;
+    
+}
+
+ul#ul-topo>li {
+    margin-bottom: 10px;
+    
+    
+}
+
+#ul-topo li>a {
+    
+    color: rgb(114, 114, 45);
+    text-transform: uppercase;
+}
+
+#ul-topo li>a:hover {
+
+    padding: 5px;
+    background: rgb(114, 114, 45);
+    color: rgb(233, 233, 137);
+}
+
+#locais-menu {
+    width: 350px;
+    color: rgb(114, 114, 45);
+    border-top: rgb(114, 114, 45) solid 1px;
+    border-bottom: rgb(114, 114, 45) solid 1px;
+    padding: 3px 0;
+    font-size: 0.8em;
+    margin: 20px;
+    position: absolute;
+    right: 0;
+
+}
+#locais-menu .locais {
+    float: left;
+    line-height: 2.1em;
+}
+a.reserva {
+    text-transform: uppercase;
+    background-color: rgb(114, 114, 45);
+    color: #fff5b0;
+    padding: 5px 10px;
+    float: right;
+
+}
+
+/*acaba o topo*/
+
+
+/*começa o content*/
+
+#content-1 {
+    margin-top: 10px;
+    width: 46%;
+    float: left;
+    padding: 2%;
+    background: #efeacc url(Imagens/bg-area-principal.png) top left repeat-x;
+}
+
+#content-2 {
+    width: 46%;
+    margin-top: 10px;
+    background: #ded9b7 url(Imagens/bg-area-lateral.png) top left repeat-x;
+    float: right;
+    padding: 2%;
+}
+
+h2, h3 {
+    color:rgb(114, 114, 45);
+}
+
+#content-2 p {
+    font-size: 0.9em;
+}
+
+
+/*content 2*/
+
+#beneficios li:hover {
+    background: #fff193;
+
+}
+
+#beneficios li {
+    padding: 9px;
+    border-bottom: solid 1px #fff8c0;
+    height: 6em;
+
+}
+
+#beneficios li a img {
+    float: left;
+    margin-right: 8px;
+}
+
+#beneficios li a p {
+    color: black;
+    padding-bottom: 3px;
+}
+#beneficios li a h3 {
+    background: url(Imagens/ornamento.png) no-repeat right ;
+}
+
+
+/*rodape*/ 
+
+
+#rodape  {
+    clear: both;
+    background: #f0e69b url(Imagens/bg-rodape.png) repeat-x top;
+    padding: 16px;
+    color: #7d7640;
+}
